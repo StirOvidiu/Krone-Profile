@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  background-color: #071b3e;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.nav-list > ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  letter-spacing: 3px;
+  font-size: 0.9vw;
+}
+
+.nav-logo {
+  width: 20%;
+  background-color: gray;
+}
+
+.li-list {
+  margin: 0 30px;
+}
+
+.li-list:hover {
+  transform: translateY(-2px);
+  transition: transform 250ms;
+}

@@ -1,0 +1,14 @@
+.image-slider {
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .image-slider {
+    width: 100% !important;
+    margin: 10px;
+  }
+
+  .image-slider > div {
+    width: 75% !important;
+  }
+}
